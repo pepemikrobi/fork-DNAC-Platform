@@ -10,7 +10,7 @@ try:
 except ModuleNotFoundError:
     from dummy_spark_config import AUTH, ROOMID
 
-url = "https://api.ciscospark.com/v1/messages"
+url = "https://webexapis.com/v1/messages"
 
 def post_message(message):
 
